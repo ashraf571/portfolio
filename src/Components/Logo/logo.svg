@@ -1,0 +1,10 @@
+<!-- Save this as logo.svg in your project folder -->
+<div className="fill-orange hover:text-orange">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 2L2 7v10l10 5 10-5V7l-10-5z" stroke="#000" strokeWidth="2"/>
+  <text x="7" y="15" fontFamily="Arial" fontSize="8" fill="#000">AS</text>
+</svg>
+
+
+
+</div>

@@ -1,0 +1,99 @@
+/* .App {
+  text-align: center;
+}
+
+
+.body {
+ 
+ 
+} */
+
+
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+}
+
+.space-links{
+ transition: 0.3s;
+}
+.space-links:hover {
+   letter-spacing: 2px;
+}
+.button-gap{
+  transition: 0.3s;
+}
+.button-gap:hover {
+  gap: 12px;
+}
+
+
+.input-container {
+  position: relative;
+}
+
+.input-container input:focus {
+  outline-color: #7e19af;
+}
+
+.input-container input:focus + span .icon {
+  color: #7e19af;
+}
+
+.input-container textarea:focus {
+  outline-color: #7e19af;
+}
+
+.input-container textarea:focus + span .icon {
+  color: #7e19af;
+}
+
+/* button animations */
+/* rounded-3xl text-lg bg-royalblue1  text-white px-6 py-2 flex gap-1 shadow-xl hover:shadow-2xl transition-shadow duration-300 */
+.btn {
+  text-decoration: none;
+  border: 2px solid #0066cc;
+  color: #0066cc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  /* background-color: #01478c; */
+  background-color: #0066cc;
+  color:#ffffff;
+}
+.btn:hover {
+  color: #ffffff;
+}
+/* royalblue1: "#0066cc", //primary & bright
+royalblue2: "#01478c", //secondary & dark */
+
+
+.btn span {
+  position: relative;
+  z-index: 2; /* Ensure the text is above the pseudo-element */
+}
+
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #0066cc; */
+  background-color: #01478c;
+  transition: all 0.3s;
+  z-index: 1;
+  transform: translateX(-100%);
+  
+}
+.btn:hover::before {
+  transform: translateX(0);
+}
+
