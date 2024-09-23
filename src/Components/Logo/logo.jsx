@@ -17,7 +17,7 @@ const NameLogo = () => {
         {/* <LogoIcon className="h-9 w-9 " /> */}
         <img src={hero} alt="" className="h-9 w-9" />
         <span className="font-semibold text-2xl ml-2 hover:text-royalblue1 ">
-          Arham
+          Ashraf
         </span>
       </div>
     </Link>

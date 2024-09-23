@@ -36,7 +36,7 @@ const Footer = () => {
     <div className="flex flex-col gap-4 bg-royalblue1 px-4 md:px-20 relative">
       <div className="flex flex-col md:flex-row gap-8 pt-6">
         <div className="flex flex-col gap-2 w-full ">
-          <h1 className="text-white  text-2xl">Arham's Portfolio</h1>
+          <h1 className="text-white  text-2xl">Ashraf's Portfolio</h1>
           <p className="text-white text-base">
             Thank you for visiting my personal portfolio website. Connect with
             me over socials.
@@ -214,11 +214,11 @@ export const QuickLinksData = [
 export const ContactinfoData = [
   {
     icon: faPhone,
-    text: "+92 308-469-5012",
+    text: "+92 342-646-5571",
   },
   {
     icon: faEnvelope,
-    text: "arhamsarwar786@gmail.com",
+    text: "ashrafali.gcs@gmail.com",
   },
   {
     icon: faMapMarkedAlt,

@@ -67,25 +67,34 @@ export const TopbarData = [
   },
 ];
 export const SkillsData = [
-  {
-    image: flutter,
-    name: "Flutter",
-  },
-  {
-    image: flutterflow,
-    name: "Flutterflow",
-  },
-  {
-    image: nestjs,
-    name: "Nest js",
-  },
+  // {
+  //   image: flutter,
+  //   name: "Flutter",
+  // },
+  // {
+  //   image: flutterflow,
+  //   name: "Flutterflow",
+  // },
+  
   {
     image: node,
     name: "NodeJs",
   },
   {
+    image: express,
+    name: "ExpressJs",
+  },
+  {
+    image: nestjs,
+    name: "NestJs",
+  },
+  {
     image: logo,
     name: "ReactJs",
+  },
+  {
+    image: logo,
+    name: "NextJs",
   },
   {
     image: docker,
@@ -111,14 +120,14 @@ export const SkillsData = [
     image: postgres,
     name: "PostgreSQL",
   },
-  {
-    image: php,
-    name: "Php",
-  },
-  {
-    image: digitalocean,
-    name: "DigitalOcean",
-  },
+  // {
+  //   image: php,
+  //   name: "Php",
+  // },
+  // {
+  //   image: digitalocean,
+  //   name: "DigitalOcean",
+  // },
   {
     image: gitvcs,
     name: "Git VCS",
@@ -135,22 +144,22 @@ export const SkillsData = [
     image: mongo,
     name: "MongoDB",
   },
-  {
-    image: kotlin,
-    name: "Kotlin",
-  },
-  {
-    image: java,
-    name: "Java",
-  },
-  {
-    image: firebase,
-    name: "Firebase",
-  },
-  {
-    image: android,
-    name: "Android",
-  },
+  // {
+  //   image: kotlin,
+  //   name: "Kotlin",
+  // },
+  // {
+  //   image: java,
+  //   name: "Java",
+  // },
+  // {
+  //   image: firebase,
+  //   name: "Firebase",
+  // },
+  // {
+  //   image: android,
+  //   name: "Android",
+  // },
 
   {
     image: devops,
@@ -160,15 +169,12 @@ export const SkillsData = [
     image: cicd,
     name: "Ci/Cd",
   },
-  {
-    image: scrapper,
-    name: "Scrapper",
-  },
+  // {
+  //   image: scrapper,
+  //   name: "Scrapper",
+  // },
 
-  {
-    image: express,
-    name: "ExpressJs",
-  },
+  
   {
     image: material,
     name: "Material UI",
@@ -186,33 +192,33 @@ export const SkillsData = [
     image: css,
     name: "CSS3",
   },
-  {
-    image: python,
-    name: "Python",
-  },
-  {
-    image: c,
-    name: "C++",
-  },
+  // {
+  //   image: python,
+  //   name: "Python",
+  // },
+  // {
+  //   image: c,
+  //   name: "C++",
+  // },
 
   {
     image: mysql,
     name: "MySQL",
   },
-  {
-    image: heroku,
-    name: "Heroku",
-  },
-  {
-    image: netlify,
-    name: "Netlify",
-  },
-  {
-    image: jquery,
-    name: "JQuery",
-  },
-  {
-    image: wordpress,
-    name: "Wordpress",
-  },
+  // {
+  //   image: heroku,
+  //   name: "Heroku",
+  // },
+  // {
+  //   image: netlify,
+  //   name: "Netlify",
+  // },
+  // {
+  //   image: jquery,
+  //   name: "JQuery",
+  // },
+  // {
+  //   image: wordpress,
+  //   name: "Wordpress",
+  // },
 ];

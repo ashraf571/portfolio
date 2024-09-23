@@ -86,7 +86,7 @@ const Work = () => {
         >
           Web Development
         </button>
-        <button
+        {/* <button
           onClick={() => setSelectedCategory("mobiledevelopment")}
           className={` text-sm md:text-2xl p-2 ${
             selectedCategory === "mobiledevelopment"
@@ -95,7 +95,7 @@ const Work = () => {
           }`}
         >
           Mobile Development
-        </button>
+        </button> */}
 
         <button
           onClick={() => setSelectedCategory("backenddevelopment")}

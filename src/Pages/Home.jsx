@@ -24,14 +24,14 @@ const Home = () => {
       {/* <ParticlesComponent id="particles" /> */}
       <div className=" flex  items-start justify-center flex-col gap-4 w-full  ml-2 md:ml-0">
         <h2 className="text-3xl md:text-5xl font-bold text-mudblue font-poppins ">
-          Hi There, <br /> I'm Arham{" "}
-          <span className="text-royalblue1">Sarwar</span>
+          Hi There, <br /> I'm Ashraf{" "}
+          <span className="text-royalblue1">Ali</span>
         </h2>
         <div className="">
           <TypeWriter
             className="md:"
             texts={[
-              "Flutter Development",
+              "Mern Stack Development",
               "Full Stack Development",
               "Backend Development",
               "DevOps",
