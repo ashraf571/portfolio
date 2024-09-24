@@ -3,7 +3,7 @@ import { useState } from "react";
 import ProfileImage from "../images/ashraf.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faUserAlt } from "@fortawesome/free-solid-svg-icons";
-import resume from "../images/ArhamSarwar.pdf";
+import resume from "../images/AshrafAli.pdf";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { useInView } from "react-intersection-observer";
@@ -195,9 +195,9 @@ export default About;
 export const AboutData = [
   {
     name: "I'm Ashraf",
-    designation: "Full Stack Developer",
+    designation: "Mern Stack Developer",
     description:
-      "As a dedicated Full-Stack Developer based in Lahore, Pakistan, I bring a wealth of experience and a deep passion for crafting innovative digital solutions. My journey in technology began with an Information Technology degree from Punjab University (PU), which laid the foundation for my expertise in both front-end and back-end development. Throughout my career, I have been driven by a commitment to continuous learning and excellence in coding. This passion has fueled my ability to design, develop, and deploy high-quality applications and websites that meet the evolving needs of users and businesses alike. My technical proficiency spans across modern development frameworks and languages, ensuring that every project I undertake is built with best practices and cutting-edge technologies. In my work I have had the privilege of developing both mobile applications and websites, focusing on creating Minimum Viable Products (MVPs) that provide maximum impact with minimal resources. This experience has honed my ability to prioritize features, streamline development processes, and deliver products that are both functional and market-ready. I believe that every line of code I write is an opportunity to innovate and solve real-world problems.",
+      "As a dedicated Mern-Stack Developer based in Lahore, Pakistan, I bring a wealth of experience and a deep passion for crafting innovative digital solutions. My journey in technology began with an Information Technology degree from Punjab University (PU), which laid the foundation for my expertise in both front-end and back-end development. Throughout my career, I have been driven by a commitment to continuous learning and excellence in coding. This passion has fueled my ability to design, develop, and deploy high-quality applications and websites that meet the evolving needs of users and businesses alike. My technical proficiency spans across modern development frameworks and languages, ensuring that every project I undertake is built with best practices and cutting-edge technologies. In my work I have had the privilege of developing both mobile applications and websites, focusing on creating Minimum Viable Products (MVPs) that provide maximum impact with minimal resources. This experience has honed my ability to prioritize features, streamline development processes, and deliver products that are both functional and market-ready. I believe that every line of code I write is an opportunity to innovate and solve real-world problems.",
     // description:
     // "I am a Full-Stack developer based in Lahore, Pakistan. I am an Information Technology graduate from PU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
     experience: "5 Years",

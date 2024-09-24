@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import SchoolImage from "../images/Arhamschool.jpeg";
-import CollegeImage from "../images/Arhamcollege.jpeg";
+import SchoolImage from "../images/school.jpg";
+import CollegeImage from "../images/collage.png";
 import UniversityImage from "../images/Arhamuniversity.jpg";
 
 import { motion } from "framer-motion";
@@ -89,20 +89,20 @@ export const EducationData = [
     alt: "institute Image",
     degree: "BS Information Technology",
     school: "University Of Punjab, Lahore",
-    date: "2019-2023 | Completed",
+    date: "2014-2018 | Completed",
   },
   {
     img: CollegeImage,
     alt: "institute Image",
-    degree: "F.sc Pre-Engineering",
-    school: "Govt Islamia College, Lahore",
-    date: "2016-2019 | Completed",
+    degree: "ICS with Statistics",
+    school: "Govt College Of Science, Lahore",
+    date: "2012-2014 | Completed",
   },
   {
     img: SchoolImage,
     alt: "institute Image",
     degree: "Matric",
-    school: "Islamia High School, Lahore",
-    date: "2014-2016 | Completed",
+    school: "Govt High School, Lahore",
+    date: "2010-2012 | Completed",
   },
 ];
