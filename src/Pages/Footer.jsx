@@ -142,7 +142,7 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <div className="flex justify-center mb-4">
+      {/* <div className="flex justify-center mb-4">
         <div className="text-lightwhite ">
           Designed With{" "}
           <span>
@@ -157,10 +157,10 @@ const Footer = () => {
             Syed Hamid Ali
           </a>
         </div>
-      </div>
+      </div> */}
 
       {/* whatsapp link */}
-      <div className="h-16 w-16 flex justify-center border border-white items-center fixed bottom-4 left-4 rounded-full bg-royalblue1  group hover:border-royalblue2 animate-bounce	">
+      {/* <div className="h-16 w-16 flex justify-center border border-white items-center fixed bottom-4 left-4 rounded-full bg-royalblue1  group hover:border-royalblue2 animate-bounce	">
         <a
           href="https://wa.link/li1t9c"
           target="blank"
@@ -172,7 +172,7 @@ const Footer = () => {
             className="text-lg text-white group-hover:text-mudorange h-full w-full "
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
