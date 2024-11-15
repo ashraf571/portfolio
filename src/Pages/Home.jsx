@@ -9,7 +9,7 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 // import LogoDevIcon from "@mui/icons-material/LogoDev";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
-import hero from "../images/arhamProfile.png";
+import hero from "../Assets/images/home.jpg";
 import { Tilt } from "react-tilt";
 import fiver from "../images/ExperienceImages/fiverbgremove.png";
 import upwork from "../images/ExperienceImages/upworkbgremove.png";
