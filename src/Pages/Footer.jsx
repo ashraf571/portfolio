@@ -235,29 +235,31 @@ export const IconLinkData = [
   //   icon: TwitterIcon,
   //   link: "",
   // },
+
   {
     icon: GitHubIcon,
-    link: "https://github.com/arhamsarwar786",
+    link: "https://github.com/ashraf571",
   },
   {
     icon: LinkedInIcon,
-    link: "https://www.linkedin.com/in/arham-sarwar-a1b56b176/",
+    link: "https://www.linkedin.com/in/ashraf-ali-b9879613b/",
   },
   {
     icon: FacebookRoundedIcon,
-    link: "https://www.facebook.com/arhamsarwar7867",
+    link: "https://www.facebook.com/ashrafali.gcs",
     bghover: "#ee00da",
   },
   {
     icon: upwork,
-    link: "https://www.upwork.com/freelancers/~01433b6d184d210e9b",
+    link: "https://www.upwork.com/freelancers/~0138a2327d9240ea7f",
     bghover: "#ee00da",
   },
   {
     icon: fiver,
-    link: "https://www.fiverr.com/arhamsarwar?up_rollout=true",
+    link: "https://www.fiverr.com/ashrafali5571?public_mode=true",
     bghover: "#ee00da",
   },
+
   // {
   //   icon: LogoDevIcon,
   //   link: "",

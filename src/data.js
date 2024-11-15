@@ -1,9 +1,10 @@
 // skills and ablities images
 import logo from "../src/images/react.png";
+import next from "../src/images/next.png";
 import express from "../src/images/express.png";
 import node from "../src/images/nodejs.png";
-import flutter from "../src/images/arhamflutter.png";
-import firebase from "../src/images/firebase.png";
+import mapbox from "../src/images/mapbox.png";
+import sendGrid from "../src/images/sendGrid.png";
 import android from "../src/images/android-os.png";
 import material from "../src/images/material-ui.png";
 import flutterflow from "../src/images/flutterFlow-removebg-preview.png";
@@ -93,8 +94,16 @@ export const SkillsData = [
     name: "ReactJs",
   },
   {
-    image: logo,
+    image: next,
     name: "NextJs",
+  },
+  {
+    image: mapbox,
+    name: "Mapbox",
+  },
+  {
+    image: sendGrid,
+    name: "SendGrid",
   },
   {
     image: docker,
