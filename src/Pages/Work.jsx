@@ -13,8 +13,6 @@ import Abonline from "../images/ProjectImages/webImages/Abonline1.jpg";
 import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
-import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
-//import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
 
 
 const Work = () => {
@@ -386,18 +384,7 @@ export const ProjectsData = [
     category: "backenddevelopment",
     disable: "false",
   },
-  {
-    img: wiyadImg,
-    alt: "wiyad",
-    projectname: "Wiyad Smart Integration",
-    projectdescription:
-      "A leading Saudi Arabian firm providing advanced smart integration solutions, ELV systems, BMS, and IoT networks for intelligent buildings and sustainable energy management.",
-    webLink: "https://wiyad.ai/",
-    androidLink: "",
-    iOSLink: "",
-    category: "webdevelopment",
-    disable: "false",
-  },
+
 
 
 ];
