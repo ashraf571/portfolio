@@ -13,8 +13,8 @@ import Abonline from "../images/ProjectImages/webImages/Abonline1.jpg";
 import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
-import wiyadImg from "../images/ProjectImages/webImages/wiyadh.png";
-import nabadhImg from "../images/ProjectImages/webImages/wiyadai.png";
+import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
+import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
 
 // android images
 import BargainX from "../images/ProjectImages/AndroidImages/BargainX.png";
