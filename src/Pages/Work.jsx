@@ -14,7 +14,7 @@ import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
 import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
-//import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
+import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
 
 
 const Work = () => {
@@ -398,6 +398,17 @@ export const ProjectsData = [
     category: "webdevelopment",
     disable: "false",
   },
-
+  {
+    img: nabadhImg,
+    alt: "nabadh",
+    projectname: "NABADH",
+    projectdescription:
+      "A comprehensive corporate wellness program in Saudi Arabia that revitalizes workplace health through group fitness, mental wellness workshops, and HR reporting.",
+    webLink: "https://nabadh.com/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
 
 ];
