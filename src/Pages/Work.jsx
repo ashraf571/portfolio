@@ -13,6 +13,8 @@ import Abonline from "../images/ProjectImages/webImages/Abonline1.jpg";
 import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
+import wiyadImg from "../images/ProjectImages/webImages/wiyadh.png";
+import nabadhImg from "../images/ProjectImages/webImages/wiyadai.png";
 
 // android images
 import BargainX from "../images/ProjectImages/AndroidImages/BargainX.png";
@@ -78,11 +80,10 @@ const Work = () => {
       <div className="flex gap-2 px-0 md:px-32 justify-center">
         <button
           onClick={() => setSelectedCategory("webdevelopment")}
-          className={` text-sm md:text-2xl p-2 ${
-            selectedCategory === "webdevelopment"
-              ? "text-white border-b-2 border-greenglow"
-              : "text-lightgrey"
-          }`}
+          className={` text-sm md:text-2xl p-2 ${selectedCategory === "webdevelopment"
+            ? "text-white border-b-2 border-greenglow"
+            : "text-lightgrey"
+            }`}
         >
           Web Development
         </button>
@@ -99,11 +100,10 @@ const Work = () => {
 
         <button
           onClick={() => setSelectedCategory("backenddevelopment")}
-          className={` text-sm md:text-2xl p-2 ${
-            selectedCategory === "backenddevelopment"
-              ? "text-white border-b-2 border-greenglow"
-              : "text-lightgrey"
-          }`}
+          className={` text-sm md:text-2xl p-2 ${selectedCategory === "backenddevelopment"
+            ? "text-white border-b-2 border-greenglow"
+            : "text-lightgrey"
+            }`}
         >
           Backend Development
         </button>
@@ -335,7 +335,6 @@ export const ProjectsData = [
     category: "backenddevelopment",
     disable: "false",
   },
-
   {
     img: brightbee,
     alt: "brightbee",
@@ -409,4 +408,29 @@ export const ProjectsData = [
     category: "backenddevelopment",
     disable: "false",
   },
+  {
+    img: wiyadImg,
+    alt: "wiyad",
+    projectname: "Wiyad Smart Integration",
+    projectdescription:
+      "A leading Saudi Arabian firm providing advanced smart integration solutions, ELV systems, BMS, and IoT networks for intelligent buildings and sustainable energy management.",
+    webLink: "https://wiyad.ai/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+  {
+    img: nabadhImg,
+    alt: "nabadh",
+    projectname: "NABADH",
+    projectdescription:
+      "A comprehensive corporate wellness program in Saudi Arabia that revitalizes workplace health through group fitness, mental wellness workshops, and HR reporting.",
+    webLink: "https://nabadh.com/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+
 ];
