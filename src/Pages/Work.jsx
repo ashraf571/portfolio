@@ -14,30 +14,8 @@ import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
 import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
-import nabadhImg from "../images/ProjectImages/webImages/nabadh.PNG";
+import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
 
-// android images
-import BargainX from "../images/ProjectImages/AndroidImages/BargainX.png";
-import Instacalm from "../images/ProjectImages/AndroidImages/Instacalm.png";
-import Salamly from "../images/ProjectImages/AndroidImages/Salamly.png";
-import pricepro from "../images/ProjectImages/AndroidImages/pricepro.png";
-import ohReady from "../images/ProjectImages/AndroidImages/ohreadyimage.jpg";
-import fittech from "../images/ProjectImages/AndroidImages/fittechimage.png";
-import Airhome from "../images/ProjectImages/AndroidImages/airhome.png";
-import diseaseImage from "../images/ProjectImages/AndroidImages/diseaseimage.png";
-import Amici from "../images/ProjectImages/AndroidImages/amiciimage.png";
-import Locksmith from "../images/ProjectImages/AndroidImages/locksmithweb.png";
-import Roshi from "../images/ProjectImages/AndroidImages/roshiImage.png";
-import unitedproposal from "../images/ProjectImages/AndroidImages/unitedimage.png";
-import Flavourz from "../images/ProjectImages/AndroidImages/restaurantimage.png";
-import mycash from "../images/ProjectImages/AndroidImages/mcashimage.png";
-import EkCabFare from "../images/ProjectImages/AndroidImages/ekcabimage.png";
-import darazan from "../images/ProjectImages/AndroidImages/darzanImage.png";
-import funkyImage from "../images/ProjectImages/AndroidImages/funkyImage.png";
-import wirdBook from "../images/ProjectImages/AndroidImages/wirdBook.jpg";
-import EgoBest from "../images/ProjectImages/AndroidImages/egybestImage.png";
-import vvpa from "../images/ProjectImages/AndroidImages/vvpa.png";
-import wikifortune from "../images/ProjectImages/AndroidImages/wikifortune.png";
 
 const Work = () => {
   const [allproject, setAllproject] = useState(false);
