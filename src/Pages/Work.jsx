@@ -14,7 +14,7 @@ import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
 import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProduction.png";
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
 import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
-import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
+import nabadhImg from "../images/ProjectImages/webImages/nabadh.PNG";
 
 // android images
 import BargainX from "../images/ProjectImages/AndroidImages/BargainX.png";
