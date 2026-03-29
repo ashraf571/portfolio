@@ -15,9 +15,6 @@ import hpappenProduction from "../images/ProjectImages/backendImages/hpappenProd
 import Globedeployment from "../images/ProjectImages/backendImages/Globe.png";
 
 // web Images for new projects
-import wiyadImg from "../images/ProjectImages/webImages/wiyad.png";
-import nabadhImg from "../images/ProjectImages/webImages/nabadh.png";
-import certianImg from "../images/ProjectImages/webImages/Certainlise.png";
 
 // android images
 import BargainX from "../images/ProjectImages/AndroidImages/BargainX.png";
@@ -410,42 +407,6 @@ export const ProjectsData = [
     androidLink: "",
     iOSLink: "",
     category: "backenddevelopment",
-    disable: "false",
-  },
-  {
-    img: wiyadImg,
-    alt: "wiyad",
-    projectname: "Wiyad Smart Integration",
-    projectdescription:
-      "A leading Saudi Arabian firm providing advanced smart integration solutions, ELV systems, BMS, and IoT networks for intelligent buildings and sustainable energy management.",
-    webLink: "https://wiyad.ai/",
-    androidLink: "",
-    iOSLink: "",
-    category: "webdevelopment",
-    disable: "false",
-  },
-  {
-    img: nabadhImg,
-    alt: "nabadh",
-    projectname: "NABADH",
-    projectdescription:
-      "A comprehensive corporate wellness program in Saudi Arabia that revitalizes workplace health through group fitness, mental wellness workshops, and HR reporting.",
-    webLink: "https://nabadh.com/",
-    androidLink: "",
-    iOSLink: "",
-    category: "webdevelopment",
-    disable: "false",
-  },
-  {
-    img: certianImg,
-    alt: "certian",
-    projectname: "Certain.li",
-    projectdescription:
-      "A specialized certification platform for Lifespan Integration (LI) therapy, managing training levels, clinical requirements, and professional certification for therapists.",
-    webLink: "https://certain.li/",
-    androidLink: "",
-    iOSLink: "",
-    category: "webdevelopment",
     disable: "false",
   },
 ];
