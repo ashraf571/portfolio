@@ -9,11 +9,9 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 // import LogoDevIcon from "@mui/icons-material/LogoDev";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
-import WhatsAppIcon from "../Assets/images/whatsapp.svg";
 
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";

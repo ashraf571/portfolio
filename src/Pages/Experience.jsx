@@ -1,28 +1,17 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import ViewButton from "../Components/Button";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import securehops from "../images/ExperienceImages/securehops_logo.jpeg";
 import tydiup from "../images/ExperienceImages/tydiup_logo.jpeg";
-import Salamgram from "../images/ExperienceImages/Salamgram.jpeg";
-import ewiglife from "../images/ExperienceImages/ewiglife.jpeg";
 import fiver from "../images/ExperienceImages/fiverr_com_logo.jpeg";
-import stepinSolutions from "../images/ExperienceImages/stepinSolutions.jpeg";
 import upwork from "../images/ExperienceImages/upwork_logo.jpeg";
-import Pitaco from "../images/ExperienceImages/Pitaco.jpeg";
-import vvork from "../images/ExperienceImages/vvork.jpeg";
-import Devsins from "../images/ExperienceImages/Devsins.jpeg";
 
 const Experience = () => {
-  const [allexperience, setAllexperience] = useState(false);
+  const [allexperience] = useState(false);
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
-
-  const handleView = () => {
-    setAllexperience(!allexperience);
-  };
 
   const animationVariants = {
     hidden: { y: "-20vh", opacity: 0 },
