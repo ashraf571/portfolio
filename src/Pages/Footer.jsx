@@ -12,6 +12,7 @@ import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import WhatsAppIcon from "../Assets/images/whatsapp.svg";
 
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
@@ -21,6 +22,7 @@ import upwork from "../images/ExperienceImages/upworkbgremove.png";
 
 const Footer = () => {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
+  const whatsappLink = "https://wa.me/923426465571?text=Hi%20Ashraf%2C%20I%20want%20to%20discuss%20a%20project.";
 
   const itemVariants = {
     hidden: { y: "-100vh", opacity: 0 },
@@ -158,19 +160,15 @@ const Footer = () => {
       </div> */}
 
       {/* whatsapp link */}
-      {/* <div className="h-16 w-16 flex justify-center border border-white items-center fixed bottom-4 left-4 rounded-full bg-royalblue1  group hover:border-royalblue2 animate-bounce	">
-        <a
-          href="https://wa.link/li1t9c"
-          target="blank"
-          rel="noopener noreferrer"
-        >
+      <div className="h-14 w-14 flex justify-center items-center fixed bottom-4 left-4 rounded-full bg-[#25D366] border-2 border-[#128C7E] z-50 shadow-lg hover:scale-105 transition duration-300">
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <img
             src={WhatsAppIcon}
-            alt=""
-            className="text-lg text-white group-hover:text-mudorange h-full w-full "
+            alt="Chat on WhatsApp"
+            className="h-8 w-8 object-contain"
           />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };
