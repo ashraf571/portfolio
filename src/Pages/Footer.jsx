@@ -204,6 +204,11 @@ export const QuickLinksData = [
   },
   {
     icon: faChevronCircleRight,
+    text: "Pricing",
+    link: "pricing",
+  },
+  {
+    icon: faChevronCircleRight,
     text: "Experience",
     link: "experience",
   },

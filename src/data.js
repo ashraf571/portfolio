@@ -46,6 +46,10 @@ export const TopbarData = [
     link: "work",
   },
   {
+    name: "Pricing",
+    link: "pricing",
+  },
+  {
     name: "Experience",
     link: "experience",
   },
@@ -217,4 +221,63 @@ export const SkillsData = [
   //   image: wordpress,
   //   name: "Wordpress",
   // },
+];
+
+export const PricingPlansData = [
+  {
+    title: "Single Page Website",
+    subtitle: "Great for personal brand or starter portfolio.",
+    price: "PKR 14,000",
+    priceNote: "Domain + hosting included",
+    features: [
+      "1 modern responsive page",
+      "Free domain and hosting setup",
+      "Contact form integration",
+      "Fast loading and SEO-friendly basics",
+      "1 round of revisions",
+    ],
+    cta: "Get Started",
+  },
+  {
+    title: "Up to 5 Pages Website",
+    subtitle: "Perfect for businesses needing more details and sections.",
+    price: "PKR 20,000",
+    priceNote: "Domain + hosting included",
+    features: [
+      "Up to 5 responsive pages",
+      "Free domain and hosting setup",
+      "Service/about/contact pages",
+      "Basic on-page SEO setup",
+      "2 rounds of revisions",
+    ],
+    cta: "Choose Plan",
+  },
+  {
+    title: "Up to 10 Pages Website",
+    subtitle: "Ideal for complete business websites with rich content.",
+    price: "PKR 25,000",
+    priceNote: "Domain + hosting included",
+    features: [
+      "Up to 10 responsive pages",
+      "Free domain and hosting setup",
+      "Advanced layout and sections",
+      "Lead/contact form integration",
+      "2 rounds of revisions + deployment support",
+    ],
+    cta: "Choose Plan",
+  },
+  {
+    title: "Large Scale Application",
+    subtitle: "Best for custom web apps and complex business workflows.",
+    price: "Let's Talk",
+    priceNote: "Custom scope and timeline",
+    features: [
+      "Custom architecture and planning",
+      "Scalable frontend and backend setup",
+      "API integrations and dashboards",
+      "Performance and security focus",
+      "Dedicated consultation",
+    ],
+    cta: "Let's Talk",
+  },
 ];

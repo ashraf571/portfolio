@@ -71,6 +71,11 @@ export const MobileTopbarData = [
     current: false,
   },
   {
+    name: "Pricing",
+    link: "pricing",
+    current: false,
+  },
+  {
     name: "Experience",
     link: "experience",
     current: false,
