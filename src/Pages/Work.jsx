@@ -10,6 +10,7 @@ import brightbee from "../images/brightbee.png";
 import nabadh from "../images/ProjectImages/webImages/nabadh.png";
 import wiyad from "../images/ProjectImages/webImages/wiyad.png";
 import immobelgium from "../images/ProjectImages/webImages/immobelgium.png";
+import certainli from "../images/ProjectImages/webImages/certainli.png";
 
 // backend Images
 import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
@@ -105,7 +106,7 @@ const Work = () => {
                   <img
                     src={Item.img}
                     alt={Item.alt}
-                    className="object-cover w-full h-full rounded-md "
+                    className="object-contain w-full h-full rounded-md bg-white p-2"
                   />
                   {/* fill change to cover */}
                   <div className="absolute bottom-0 w-full">
@@ -185,7 +186,7 @@ const Work = () => {
                 <img
                   src={Item.img}
                   alt={Item.alt}
-                  className="object-cover w-full h-full rounded-md"
+                  className="object-contain w-full h-full rounded-md bg-white p-2"
                 />
                 {/* fill change to cover */}
                 <div className="absolute bottom-0 w-full">
@@ -313,6 +314,18 @@ export const ProjectsData = [
     projectdescription:
       "Family-run real estate agency with 40 years of experience offering sales, rentals, holiday rentals, and trustee services on the Belgian coast.",
     webLink: "https://www.immo-belgium.be/en",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+  {
+    img: certainli,
+    alt: "Certainli",
+    projectname: "Certainli",
+    projectdescription:
+      "AI-powered BOM compliance management platform that helps teams streamline supplier and component compliance workflows.",
+    webLink: "https://www.certainli.se/",
     androidLink: "",
     iOSLink: "",
     category: "webdevelopment",
