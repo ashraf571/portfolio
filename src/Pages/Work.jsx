@@ -7,6 +7,9 @@ import tilly from "../images/tilly.png";
 import kwuk from "../images/kwuk.png";
 import femclinic from "../images/ProjectImages/webImages/femclinic.png";
 import brightbee from "../images/brightbee.png";
+import nabadh from "../images/ProjectImages/webImages/nabadh.png";
+import wiyad from "../images/ProjectImages/webImages/wiyad.png";
+import immobelgium from "../images/ProjectImages/webImages/immobelgium.png";
 
 // backend Images
 import hpappen from "../images/ProjectImages/backendImages/hpappen.png";
@@ -274,6 +277,42 @@ export const ProjectsData = [
     projectdescription:
       "Hpappen, a Swedish-based MCQ website, offering a streamlined and comprehensive approach to mastering multiple-choice questions.",
     webLink: "https://www.hpappen.se/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+  {
+    img: nabadh,
+    alt: "nabadh",
+    projectname: "Nabadh",
+    projectdescription:
+      "Riyadh’s first hybrid corporate wellness program, combining on-site training with daily digital accountability to activate your workforce.",
+    webLink: "https://nabadh.com/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+  {
+    img: wiyad,
+    alt: "wiyad",
+    projectname: "Wiyad Smart Integration",
+    projectdescription:
+      "Premium smart integration company in Saudi Arabia delivering Vision 2030–aligned IoT, smart building, and sustainable energy solutions.",
+    webLink: "https://wiyad.ai/",
+    androidLink: "",
+    iOSLink: "",
+    category: "webdevelopment",
+    disable: "false",
+  },
+  {
+    img: immobelgium,
+    alt: "Immo Belgium",
+    projectname: "Immo Belgium",
+    projectdescription:
+      "Family-run real estate agency with 40 years of experience offering sales, rentals, holiday rentals, and trustee services on the Belgian coast.",
+    webLink: "https://www.immo-belgium.be/en",
     androidLink: "",
     iOSLink: "",
     category: "webdevelopment",
