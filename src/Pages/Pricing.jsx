@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { PricingPlansData } from "../data";
 
 const Pricing = () => {
@@ -15,9 +16,14 @@ const Pricing = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {PricingPlansData.map((plan, index) => (
-          <div
+          <motion.div
             key={index}
-            className="bg-white rounded-xl border border-lightgrey shadow-md p-5 flex flex-col justify-between"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.45, delay: index * 0.1, ease: "easeOut" }}
+            whileHover={{ y: -8, scale: 1.02 }}
+            className="bg-white rounded-xl border border-lightgrey shadow-md p-5 flex flex-col justify-between transition-shadow duration-300 hover:shadow-xl"
           >
             <div>
               <h3 className="text-xl font-bold text-royalblue1">{plan.title}</h3>
@@ -48,7 +54,7 @@ const Pricing = () => {
                 {plan.cta}
               </button>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
