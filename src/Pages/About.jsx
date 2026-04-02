@@ -202,7 +202,7 @@ export const AboutData = [
     // "I am a Full-Stack developer based in Lahore, Pakistan. I am an Information Technology graduate from PU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
     experience: "5 Years",
     email: "ashrafali.gcs@gmail.com",
-    place: "Lahore, Pakistan - 540000",
+    place: "Lahore, Pakistan - 54000",
     number: "+92 342-646-5571",
     button: "Resume",
     icon: faChevronRight,

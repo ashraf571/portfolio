@@ -1,6 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { scroller } from "react-scroll";
 import { PricingPlansData } from "../data";
+
+const scrollToContact = () => {
+  scroller.scrollTo("contact", {
+    smooth: true,
+    duration: 500,
+    offset: -70,
+  });
+};
 
 const Pricing = () => {
   return (
@@ -18,12 +27,21 @@ const Pricing = () => {
         {PricingPlansData.map((plan, index) => (
           <motion.div
             key={index}
+            role="button"
+            tabIndex={0}
+            onClick={scrollToContact}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                scrollToContact();
+              }
+            }}
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.45, delay: index * 0.1, ease: "easeOut" }}
             whileHover={{ y: -8, scale: 1.02 }}
-            className="bg-white rounded-xl border border-lightgrey shadow-md p-5 flex flex-col justify-between transition-shadow duration-300 hover:shadow-xl"
+            className="bg-white rounded-xl border border-lightgrey shadow-md p-5 flex flex-col justify-between transition-shadow duration-300 hover:shadow-xl cursor-pointer focus:outline-none focus:ring-2 focus:ring-royalblue1 focus:ring-offset-2"
           >
             <div>
               <h3 className="text-xl font-bold text-royalblue1">{plan.title}</h3>
@@ -50,7 +68,14 @@ const Pricing = () => {
             </div>
 
             <div className="mt-5">
-              <button className="w-full bg-royalblue1 hover:bg-royalblue2 text-white py-2 rounded-md transition duration-300">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  scrollToContact();
+                }}
+                className="w-full bg-royalblue1 hover:bg-royalblue2 text-white py-2 rounded-md transition duration-300"
+              >
                 {plan.cta}
               </button>
             </div>
